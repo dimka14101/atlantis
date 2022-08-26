@@ -89,7 +89,7 @@ void setup() {
   //  Serial.println(mqttlogin);
   //  Serial.print("CONFIG mqttpassword=");
   //  Serial.println(mqttpassword);
-  //  isServerMode = preferences.getBool("isServerMode", true);
+    isServerMode = preferences.getBool("isServerMode", true);
   //  Serial.print("CONFIG IS SERVER MODE=");
   //  Serial.println(isServerMode);
 
@@ -471,10 +471,10 @@ void showConfigPage() {
             client.println("<input name=\"mqttpassword\" type=\"password\" id=\"mqttpassword\" placeholder=\"MQTT password\">");
             client.println("</div>");
             client.println("<div class=\"part\">");
-            client.println("<input name=\"mqttdevicepublishtag\" type=\"text\" id=\"mqttdevicepublishtag\" value=\"atlantis/hub\" disabled>");
+            client.println("<input name=\"mqttdevicepublishtag\" type=\"text\" id=\"mqttdevicepublishtag\" value=\""+mqttpubname+"\" disabled>");
             client.println("</div>");
             client.println("<div class=\"part\">");
-            client.println("<input name=\"mqttdevicesubscribetag\" type=\"text\" id=\"mqttdevicesubscribetag\" value=\"atlantis/hubnotify\" disabled>");
+            client.println("<input name=\"mqttdevicesubscribetag\" type=\"text\" id=\"mqttdevicesubscribetag\" value=\""+mqttsubname+"\" disabled>");
             client.println("</div>");
             client.println("<input type=\"submit\" value=\"Save\">");
             client.println("</form>");
