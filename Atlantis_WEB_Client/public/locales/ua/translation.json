@@ -1,0 +1,228 @@
+{
+  "test": "тест",
+  "404": "покажіть мені шлях додому",
+  "TopPanel": {
+    "Home": "Стартова",
+    "Settings": "Налаштування",
+    "About": "Про проект",
+
+    "ServerStatus": "Стан з`єднання:",
+    "PanelConnectStatus": {
+      "NotConnected": "відсутнє",
+      "Connecting": "підключення",
+      "Connected": "з`єднано",
+      "Error": "помилка",
+      "Reconnecting": "відновлення"
+    }
+  },
+  "Settings": {
+    "TabsName": {
+      "General": "Загальні",
+      "Mosquito": "Mosquito",
+      "Account": "Профіль",
+      "Limits": "Ліміти"
+    },
+    "General": {
+      "Name": "Загальні",
+      "Theme": "Тема",
+      "SwitсhToDark": "Перейти на темну тему",
+      "Language": "Мова",
+      "SelectedLng": "Обрана",
+      "Location": "Локація"
+    },
+    "Mosquito": {
+      "Username": "Імя користувача",
+      "Password": "Пароль",
+      "Host": "Хост",
+      "Port": "Порт",
+      "ClientID": "ІД клієнта",
+
+      "DisconnectBTN": "Відключитись",
+
+      "ConnectStatus": {
+        "NotConnected": "З`єднання відсутнє",
+        "Connect": "Підключитись",
+        "Connecting": "Підключення",
+        "Connected": "З`єднано",
+        "Error": "Помилка",
+        "Reconnecting": "Відновлення"
+      },
+
+      "Attempt": "Спроба:",
+      "From": "з"
+    },
+    "Account": {
+      "Name": "Профіль"
+    },
+    "DevicesLimits": {
+      "Name": "Ліміти пристроїв"
+    }
+  },
+
+
+  "Container": {
+    "BrooksZone": {
+      "NoConnection": "Відсутнє з`єднання з Brooks модулем",
+      "ConnectBtn": "Підключитись",
+
+      "PressureSensor": "Давач тиску",
+      "lxMsr": "лк",
+      "hPaMsr": "гПа",
+      "mMsr": "м",
+      "cels": "°C",
+
+      "HumiditySensor": "Давач вологості",
+
+      "MotionSensors": "Давачі руху",
+      "Closed": "Закрито",
+      "Vibro": "Вібрації",
+      "Move": "Рух",
+
+      "GasSensors": "Давачі газу",
+
+      "Messages": {
+        "PlantOk": "Рослина в безпеці",
+        "ALotOfLight": "Надто багато світла",
+        "NeedLight": "Недостатньо світла",
+        "TooCold": "Надто холодно",
+        "TooHot": "Надто спекотно",
+        "NeedHumidity": "Потрібно більше вологи",
+        "TooMuchHumidity": "Забагато вологи",
+        "MoveMsg": "Зафіксовано рух у кімнаті",
+        "VibroMsg": "Вібрації поверхні! Можливі пошкодження вікна/дверей!",
+        "CloseMsg": "Вікна/двері відчинені!"
+      },
+
+      "Updated": "Оновлено:",
+      "NoData": "немає даних"
+    },
+    "HallZone": {
+      "MainName": "Зал",
+
+      "NoConnection": "Відсутнє з`єднання з модулем залу",
+      "ConnectBtn": "Підключитись",
+      "Yes": "ТАК",
+      "No": "НІ",
+
+      "PressureSensor": "Давач тиску",
+      "lxMsr": "лк",
+      "hPaMsr": "гПа",
+      "mMsr": "м",
+      "cels": "°C",
+
+      "HumiditySensor": "Давач вологості",
+
+      "MotionSensors": "Давачі руху",
+      "Closed": "Закрито",
+      "Vibro": "Вібрації",
+      "Move": "Рух",
+
+      "GasSensors": "Давачі газу",
+
+      "Messages": {
+        "HallOk": "Все в нормі",
+        "ALotOfLight": "Надто багато світла",
+        "NeedLight": "Недостатньо світла",
+        "TooCold": "Надто холодно",
+        "TooHot": "Надто спекотно",
+        "NeedHumidity": "Потрібно більше вологи",
+        "TooMuchHumidity": "Забагато вологи",
+        "MQ9": "MQ9-Рівень газу/диму за межами норми",
+        "MQ135": "MQ135-Якість повітря за межами норми",
+        "MoveMsg": "Зафіксовано рух у кімнаті",
+        "VibroMsg": "Вібрації поверхні! Можливі пошкодження вікна/дверей!",
+        "CloseMsg": "Вікна/двері відчинені!"
+      },
+
+      "Updated": "Оновлено:",
+      "NoData": "немає даних"
+    },
+    "KitchenZone": {
+      "MainName": "Кухня",
+
+      "NoConnection": "Відсутнє з`єднання з модулем кухні",
+      "ConnectBtn": "Підключитись",
+      "Yes": "ТАК",
+      "No": "НІ",
+
+      "PressureSensor": "Давач тиску",
+      "lxMsr": "лк",
+      "hPaMsr": "гПа",
+      "mMsr": "м",
+      "cels": "°C",
+
+      "HumiditySensor": "Давач вологості",
+      
+      "BathSensors": "Дані кімнати",
+      "RelayClosed": "Перекрито",
+      "WaterLvl": "Рівень води",
+      "Move": "Рух",
+
+      "GasSensors": "Давачі газу",
+
+      "Messages": {
+        "KitchenOk": "Все в нормі",
+        "ALotOfLight": "Надто багато світла",
+        "NeedLight": "Недостатньо світла",
+        "TooCold": "Надто холодно",
+        "TooHot": "Надто спекотно",
+        "NeedHumidity": "Потрібно більше вологи",
+        "TooMuchHumidity": "Забагато вологи",
+        "MQ2": "MQ2-Рівень газу/диму за межами норми",
+        "MQ5": "MQ5-Рівень газу за межами норми",
+        "MQ9": "MQ9-Рівень газу/диму за межами норми",
+        "MQ135": "MQ135-Якість повітря за межами норми",
+        "MoveMsg": "Зафіксовано рух у кімнаті",
+        "VibroMsg": "Вібрації поверхні! Можливі пошкодження вікна/дверей!",
+        "CloseMsg": "Вікна/двері відчинені!"
+      },
+
+      "Updated": "Оновлено:",
+      "NoData": "немає даних"
+    },
+    "BathZone": {
+      "MainName": "Ванна",
+
+      "NoConnection": "Відсутнє з`єднання з модулем ванної кімнати",
+      "ConnectBtn": "Підключитись",
+      "Yes": "ТАК",
+      "No": "НІ",
+
+      "PressureSensor": "Давач тиску",
+      "lxMsr": "лк",
+      "hPaMsr": "гПа",
+      "mMsr": "м",
+      "cels": "°C",
+
+      "HumiditySensor": "Давач вологості",
+
+      "MotionSensors": "Давачі руху",
+      "Closed": "Закрито",
+      "Vibro": "Вібрації",
+      "Move": "Рух",
+
+      "GasSensors": "Давачі газу",
+
+      "Messages": {
+        "BathOk": "Все в нормі",
+        "ALotOfLight": "Надто багато світла",
+        "NeedLight": "Недостатньо світла",
+        "TooCold": "Надто холодно",
+        "TooHot": "Надто спекотно",
+        "NeedHumidity": "Потрібно більше вологи",
+        "TooMuchHumidity": "Забагато вологи",
+        "MQ9": "MQ9-Рівень газу/диму за межами норми",
+        "MQ135": "MQ135-Якість повітря за межами норми",
+        "WaterMsg": "Рівень води за межами норми. Можливе протікання води",
+        "RelayMsg": "Протікання води. Постачання припинено, реле замкнене",
+        "MoveMsg": "Зафіксовано рух у кімнаті"
+      },
+
+      "Updated": "Оновлено:",
+      "NoData": "немає даних"
+    },
+    "BrooksCam": {
+      "NoConnection":"Немає відповіді від BrooksCam. Будь ласка, перевірте камеру та з`єднання з мережею."
+    }
+  }
+}

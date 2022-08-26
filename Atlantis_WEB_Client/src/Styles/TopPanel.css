@@ -1,0 +1,27 @@
+.button {
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.button.light {
+    background: #e71414;
+    color: black
+}
+
+.button.dark {
+    background: #3123f5;
+    color: wheat
+}
+
+.current-theme {
+    margin: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.custom {
+    color: red;
+    border: none;
+    padding: 0;
+    width:100%;
+}

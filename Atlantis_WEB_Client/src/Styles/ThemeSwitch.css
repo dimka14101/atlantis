@@ -1,0 +1,99 @@
+.button {
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.button.light {
+    background: #ededed;
+    color: black
+}
+
+.button.dark {
+    background: #1d1d1d;
+    color: wheat
+}
+
+.current-theme {
+    margin: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body.dark {
+    background-color: #000a12;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display:table;
+}
+
+
+.darkThemePrimaryColor {
+    background-color: #343a40;
+}
+.darkThemeDarkColor {
+    background-color: #212121;
+}
+.darkThemeLightColor {
+    background-color: #0d47a1;
+}
+
+
+div.dark.card {
+    background-color: #343a40;
+    color: #8e99a3;
+}
+
+div.card > card-header.dark{
+    background-color: #212121;
+    /* color: #ffffff; */
+}
+div.card > card-body.dark{
+    background-color: #343a40;
+    /* color: #ffffff; */
+    border-color: #000a12;
+}
+div.card > card-body.light{
+    /* color: #ffffff; */
+    border-color: #DFDFE0;
+}
+
+div.dark.card > .card-body button {
+    background-color: #0d47a1;
+    color: #8e99a3;
+}
+
+div.dark.card > .card-body div.input-group-prepend span {
+    background-color: #4f5b62;
+    border-color: #000a12;
+}
+
+div.dark.card > .card-body select {
+    background-color: #4f5b62;
+    border-color: #000a12;
+    color: #8e99a3;
+}
+
+div.dark.card > .card-body input {
+    background-color: #4f5b62;
+    border-color: #000a12;
+    color: #8e99a3;
+}
+
+div.card > card-footer.dark{
+    background-color: #343a40;
+    /* color: #ffffff; */
+}
+
+
+
+.pagenotFoundBtn {
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}

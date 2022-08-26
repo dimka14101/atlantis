@@ -1,0 +1,97 @@
+.hubnav {
+  text-align: center;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 6;
+  top: 0;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.sidenav {
+  width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 6;
+  top: 0;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.sidenav a {
+  padding: 0 0 0 5%;
+  text-decoration: none;
+  font-size: 20px;
+  color: #2196F3;
+}
+
+.hubnav p {
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+/* device page
+  
+  #exTab1 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  
+  #exTab2 h3 {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  
+  
+  #exTab1 .nav-pills > li > a {
+    border-radius: 0;
+  }
+  
+  
+  #exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+  }
+  
+  #exTab3 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+   */
+  
+  
+  
+  
+  

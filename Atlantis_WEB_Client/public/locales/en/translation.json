@@ -1,0 +1,229 @@
+{
+  "test": "test",
+  "404": "show me the way to home",
+  "TopPanel": {
+    "Home": "Home",
+    "Settings": "Settings",
+    "About": "About",
+
+    "ServerStatus": "Connection state:",
+    "PanelConnectStatus": {
+      "NotConnected": "not connected",
+      "Connecting": "connecting",
+      "Connected": "connected",
+      "Error": "error",
+      "Reconnecting": "reconnecting"
+    }
+  },
+  "Settings": {
+    "TabsName": {
+      "General": "General",
+      "Mosquito": "Mosquito",
+      "Account": "Account",
+      "Limits": "Limits"
+    },
+    "General": {
+      "Name": "General",
+      "Theme": "Theme",
+      "SwitсhToDark": "Switch to dark",
+      "Language": "Language",
+      "SelectedLng": "Current",
+      "Location": "Location"
+    },
+    "Mosquito": {
+      "Username": "Username",
+      "Password": "Password",
+      "Host": "Host",
+      "Port": "Port",
+      "ClientID": "ClientID",
+
+      "DisconnectBTN": "Disconnect",
+
+      "ConnectStatus": {
+        "NotConnected": "Not connected",
+        "Connect": "Connect",
+        "Connecting": "Connecting",
+        "Connected": "Connected",
+        "Error": "Error",
+        "Reconnecting": "Reconnecting"
+      },
+
+      "Attempt": "Attempt:",
+      "From": "from"
+    },
+    "Account": {
+      "Name": "Account"
+    },
+    "DevicesLimits": {
+      "Name": "Devices limits"
+    }
+  },
+  "Container": {
+    "BrooksZone": {
+      "NoConnection": "No connection with Brooks ship",
+      "ConnectBtn": "Connect",
+      "Yes": "YES",
+      "No": "NO",
+
+      "PressureSensor": "Pressure sensor",
+      "lxMsr": "lx",
+      "hPaMsr": "hPa",
+      "mMsr": "m",
+      "cels": "°C",
+
+      "HumiditySensor": "Humidity sensor",
+
+      "MotionSensors": "Motion sensors",
+      "Closed": "Closed",
+      "Vibro": "Vibro",
+      "Move": "Move",
+
+      "GasSensors": "Gas sensors",
+
+      "Messages": {
+        "PlantOk": "Plant in safe",
+        "ALotOfLight": "Too much light",
+        "NeedLight": "Not enought light",
+        "TooCold": "It`s too cold",
+        "TooHot": "It`s too hot",
+        "NeedHumidity": "Need more humidity",
+        "TooMuchHumidity": "Need less humidity",
+        "MoveMsg": "Motion detected in the room",
+        "VibroMsg": "Surface vibrations! Possible damage to the window/door!",
+        "CloseMsg": "Windows/doors open!"
+      },
+
+      "Updated": "Updated:",
+      "NoData": "no data"
+    },
+    "HallZone": {
+      "MainName": "Hall",
+
+      "NoConnection": "No connection with Hall module",
+      "ConnectBtn": "Connect",
+      "Yes": "YES",
+      "No": "NO",
+
+      "PressureSensor": "Pressure sensor",
+      "lxMsr": "lx",
+      "hPaMsr": "hPa",
+      "mMsr": "m",
+      "cels": "°C",
+
+      "HumiditySensor": "Humidity sensor",
+
+      "MotionSensors": "Motion sensors",
+      "Closed": "Closed",
+      "Vibro": "Vibro",
+      "Move": "Move",
+
+      "GasSensors": "Gas sensors",
+
+      "Messages": {
+        "HallOk": "Everything is normal",
+        "ALotOfLight": "Too much light",
+        "NeedLight": "Not enought light",
+        "TooCold": "It`s too cold",
+        "TooHot": "It`s too hot",
+        "NeedHumidity": "Need more humidity",
+        "TooMuchHumidity": "Need less humidity",
+        "MQ9": "MQ9-Gas/smoke level outside the normal range",
+        "MQ135": "MQ135-Air quality outside the normal range",
+        "MoveMsg": "Motion detected in the room",
+        "VibroMsg": "Surface vibrations! Possible damage to the window/door!",
+        "CloseMsg": "Windows/doors open!"
+      },
+
+      "Updated": "Updated:",
+      "NoData": "no data"
+    },
+    "KitchenZone": {
+      "MainName": "Kitchen",
+
+      "NoConnection": "No connection with Kitchen module",
+      "ConnectBtn": "Connect",
+      "Yes": "YES",
+      "No": "NO",
+
+      "PressureSensor": "Pressure sensor",
+      "lxMsr": "lx",
+      "hPaMsr": "hPa",
+      "mMsr": "m",
+      "cels": "°C",
+
+      "HumiditySensor": "Humidity sensor",
+
+      "MotionSensors": "Motion sensors",
+      "Closed": "Closed",
+      "Vibro": "Vibro",
+      "Move": "Move",
+
+      "GasSensors": "Gas sensors",
+
+      "Messages": {
+        "KitchenOk": "Everything is normal",
+        "ALotOfLight": "Too much light",
+        "NeedLight": "Not enought light",
+        "TooCold": "It`s too cold",
+        "TooHot": "It`s too hot",
+        "NeedHumidity": "Need more humidity",
+        "TooMuchHumidity": "Need less humidity",
+        "MQ2": "MQ2-Gas/smoke level outside the normal range",
+        "MQ5": "MQ5-Gas level outside the normal range",
+        "MQ9": "MQ9-Gas/smoke level outside the normal range",
+        "MQ135": "MQ135-Air quality outside the normal range",
+        "MoveMsg": "Motion detected in the room",
+        "VibroMsg": "Surface vibrations! Possible damage to the window/door!",
+        "CloseMsg": "Windows/doors open!"
+      },
+
+      "Updated": "Updated:",
+      "NoData": "no data"
+    },
+    "BathZone": {
+      "MainName": "Bath",
+
+      "NoConnection": "No connection with Bath module",
+      "ConnectBtn": "Connect",
+      "Yes": "YES",
+      "No": "NO",
+
+      "PressureSensor": "Pressure sensor",
+      "lxMsr": "lx",
+      "hPaMsr": "hPa",
+      "mMsr": "m",
+      "cels": "°C",
+
+      "HumiditySensor": "Humidity sensor",
+
+      "BathSensors": "Room data",
+      "RelayClosed": "Blocked",
+      "WaterLvl": "Water lvl",
+      "Move": "Move",
+
+      "GasSensors": "Gas sensors",
+
+      "Messages": {
+        "BathOk": "Everything is normal",
+        "ALotOfLight": "Too much light",
+        "NeedLight": "Not enought light",
+        "TooCold": "It`s too cold",
+        "TooHot": "It`s too hot",
+        "NeedHumidity": "Need more humidity",
+        "TooMuchHumidity": "Need less humidity",
+        "MQ9": "MQ9-Gas/smoke level outside the normal range",
+        "MQ135": "MQ135-Air quality outside the normal range",
+        "WaterMsg": "The water level is outside the norm. Possible water leakage",
+        "RelayMsg": "Water flow. The supply is stopped, the relay is closed",
+        "MoveMsg": "Motion detected in the room"
+      },
+
+      "Updated": "Updated:",
+      "NoData": "no data"
+    },
+    "BrooksCam": {
+      "NoConnection":"No responce from the BrooksCam. Please check the camera and network connection."
+    }
+  }
+
+}
